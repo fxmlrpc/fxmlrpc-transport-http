@@ -17,11 +17,10 @@
     ],
     "require": {
         "php": ">=5.4",
-        "fxmlrpc/client": "dev-initial_import",
+        "fxmlrpc/transport": "dev-initial_import",
         "php-http/adapter-implementation": "0.1"
     },
     "require-dev": {
-        "fxmlrpc/native-serialization": "dev-initial_import",
         "php-http/guzzle5-adapter": "dev-initial_import",
         "phpspec/phpspec": "~2.1",
         "henrikbjorn/phpspec-code-coverage" : "~1.0"
