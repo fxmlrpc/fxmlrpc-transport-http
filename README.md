@@ -28,7 +28,7 @@ This is the most common transport.
 ## Testing
 
 ``` bash
-$ phpunit
+$ phpspec run
 ```
 
 
