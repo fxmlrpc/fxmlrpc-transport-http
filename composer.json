@@ -1,0 +1,44 @@
+{
+    "name": "fxmlrpc/http-transport",
+    "description": "HTTP Transport for fXmlRpc",
+    "license": "MIT",
+    "keywords": ["xmlrpc", "xml", "rpc", "http"],
+    "homepage": "http://fxmlrpc.org",
+    "authors": [
+        {
+            "name": "Lars Strojny",
+            "email": "lstrojny@php.net",
+            "homepage": "http://usrportage.de"
+        },
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "fxmlrpc/client": "dev-initial_import",
+        "php-http/adapter-implementation": "0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4",
+        "php-http/guzzle5-adapter": "dev-initial_import"
+    },
+    "autoload": {
+        "psr-4": {
+            "fXmlRpc\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "fXmlRpc\\Client\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
